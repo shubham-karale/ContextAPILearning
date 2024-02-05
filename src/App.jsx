@@ -6,6 +6,8 @@ import UserContextProvider from "./Context/UserContextProvider";
 import Login from "./components/Login";
 import Profile from "./components/Profile";
 
+// * Notes: What ever you write in the UserContextProvider will be available to all the children components of the UserContextProvider
+
 function App() {
   return (
     <UserContextProvider>
